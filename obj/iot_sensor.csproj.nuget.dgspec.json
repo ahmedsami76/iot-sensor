@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/sami/iot_sensor/iot-sensor/iot_sensor.csproj": {}
+  },
+  "projects": {
+    "/home/sami/iot_sensor/iot-sensor/iot_sensor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sami/iot_sensor/iot-sensor/iot_sensor.csproj",
+        "projectName": "iot_sensor",
+        "projectPath": "/home/sami/iot_sensor/iot-sensor/iot_sensor.csproj",
+        "packagesPath": "/home/sami/.nuget/packages/",
+        "outputPath": "/home/sami/iot_sensor/iot-sensor/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sami/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.19.1, )"
+            },
+            "Microsoft.Azure.Devices.Client": {
+              "target": "Package",
+              "version": "[1.42.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
