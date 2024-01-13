@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PNQqNiQfpWgKsNsf0cfUx91CJB6ox+ttTOt1ZG1cMk9fJFF18Y8341svBwc9XwwywOgwxNgJvjOzevRSpbzhIg==",
+  "dgSpecHash": "DC987f3I1TwRjdvuqhTrlClJl6y64AaKGytvfkvEj36bg/RQwInNYRQmcklCCTn1JazR7YJGYFV33e9+q4r8Gg==",
   "success": true,
   "projectFilePath": "/home/sami/iot_sensor/iot-sensor/iot_sensor.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "/home/sami/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/sami/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/home/sami/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/sami/.nuget/packages/microsoft.extensions.configuration.environmentvariables/8.0.0/microsoft.extensions.configuration.environmentvariables.8.0.0.nupkg.sha512",
     "/home/sami/.nuget/packages/microsoft.extensions.configuration.fileextensions/8.0.0/microsoft.extensions.configuration.fileextensions.8.0.0.nupkg.sha512",
     "/home/sami/.nuget/packages/microsoft.extensions.configuration.json/8.0.0/microsoft.extensions.configuration.json.8.0.0.nupkg.sha512",
     "/home/sami/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.0/microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",

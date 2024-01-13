@@ -3,6 +3,8 @@ using Microsoft.Azure.Devices.Client.Transport;
 using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Specialized;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.EnvironmentVariables;
+
 using Newtonsoft.Json;
 using System;
 using System.IO;
@@ -30,8 +32,12 @@ namespace IotSensor
         static async Task Main(string[] args)
         {
             Configuration = new ConfigurationBuilder()
-                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-                .Build();
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+    .AddEnvironmentVariables() // This should be after AddJsonFile
+    .Build();
+
+
 
             string? ioTHubName = Configuration["IoTHub:IoTHubName"];
             string? deviceId = Configuration["IoTHub:DeviceId"];

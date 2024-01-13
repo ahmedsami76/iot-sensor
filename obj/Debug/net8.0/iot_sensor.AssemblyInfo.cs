@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("iot_sensor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+612e6b915846a7e1f8a7093d7271d78515b202c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7de0931ba976166ffe578dd4daaf014c4c48154c")]
 [assembly: System.Reflection.AssemblyProductAttribute("iot_sensor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("iot_sensor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

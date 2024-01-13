@@ -19,9 +19,9 @@ COPY --from=build-env /app/out .
 
 # Set the environment variables from the .env file.
 # This is just a placeholder; the actual variables will be supplied at runtime.
-ENV IoTHub__IoTHubName=
-ENV IoTHub__DeviceId=
-ENV IoTHub__Key=
+ENV IoTHub_IoTHubName=
+ENV IoTHub_DeviceId=
+ENV IoTHub_Key=
 ENV FILE_UPLOAD_PATH=
 
 # Start the application.
