@@ -12,6 +12,9 @@ using System.Threading.Tasks;
 using Azure.Storage.Blobs.Models;
 using System.Diagnostics;
 
+/// <summary>
+/// Represents the main program for the IoT Sensor application.
+/// </summary>
 namespace IotSensor
 {
     class Program
